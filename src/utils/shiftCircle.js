@@ -15,9 +15,9 @@ const shiftCircle = (type, data, n) => {
     n = n % len;
 
     if (type == "left") {
-        return [...(data.slice(n, len)), ...len(data.slice(0, n))];
+        return [...(data.slice(n, len)), ...(data.slice(0, n))];
     } else if (type == "right") {
-        return [...(data.slice(len - n, len)), ...len(data.slice(0, len - n))];
+        return [...(data.slice(len - n, len)), ...(data.slice(0, len - n))];
     } else {
         console.error("shiftCircle 函数传参错误！");
     }

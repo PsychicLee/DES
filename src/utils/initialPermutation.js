@@ -13,7 +13,7 @@ const { IP_1 } = require("../config/table")
 const initialPermutation = (data) => {
     let ciphertext = [];    // 密文数组
     IP_1.forEach(i => {
-        ciphertext.push(plaintext[i - 1]);
+        ciphertext.push(data[i - 1]);
     });
 
     let
