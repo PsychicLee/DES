@@ -4,6 +4,7 @@
   "description": "基于 JavaScript 的 des 算法",
   "main": "des.js",
   "scripts": {
+    "encrypt": "node des.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

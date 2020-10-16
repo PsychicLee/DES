@@ -53,4 +53,5 @@ const
         2, 1, 14, 7, 4, 10, 8, 13, 15, 12, 9, 0, 3, 5, 6, 11
     ];
 
-module.exports = [S1, S2, S3, S4, S5, S6, S7, S8]
+const SBoxList = [S1, S2, S3, S4, S5, S6, S7, S8]
+module.exports = SBoxList

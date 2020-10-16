@@ -8,7 +8,7 @@ const { loop_table } = require("../config/table");
 const shiftCircle = require("./shiftCircle");
 
 /**
- * 生成 16 个子密钥
+ * 压缩置换，生成 16 个子密钥
  * @param {Array} key 密钥数组
  * @returns {Array} 16 个子密钥数组组成的数组
  */
@@ -27,7 +27,7 @@ const setSubKey = (key) => {
             key = [...C, ...D],
             subKey = [];
         PC_2.forEach(num => {
-            subKey.push(key[num-1]);
+            subKey.push(key[num - 1]);
         });
         subKeyList.push(subKey);
     }
