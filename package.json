@@ -1,0 +1,19 @@
+{
+  "name": "des",
+  "version": "1.0.0",
+  "description": "基于 JavaScript 的 des 算法",
+  "main": "des.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PsychicLee/DES.git"
+  },
+  "author": "PsychicLee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PsychicLee/DES/issues"
+  },
+  "homepage": "https://github.com/PsychicLee/DES#readme"
+}
